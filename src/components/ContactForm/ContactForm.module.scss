@@ -1,0 +1,20 @@
+.form {
+    max-width: 400px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    align-items: center;
+
+    & .btn {
+        width: 100px;
+        height: 30px;
+        border-radius: 4px;
+        cursor: pointer;
+        &:active {
+            scale: 1.1;
+        }
+        &:hover {
+            box-shadow: 3px 3px 3px 2px rgb(34, 34, 36);
+        }
+    }
+}
